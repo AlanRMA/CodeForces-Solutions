@@ -7,7 +7,8 @@ def somat(k,w):
         return k * w + somat(k,w-1)
 
 k, n, w = map(int, input().split())
-if somat(k,w) - n >= 0:
-    print((somat(k,w) - n ))
+leftover = somat(k,w) - n
+if leftover >= 0:
+    print(leftover)
 else:
      print(0)
