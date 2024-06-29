@@ -15,7 +15,7 @@ for _ in range(t):
     dislikes_b = movie_b.count(-1)
 
     # Calculate initial ratings
-    rating_a = likes_a - dislikes_a
+    rating_a = likes_a - dislikes_a     
     rating_b = likes_b - dislikes_b
 
     # Initialize review shifts
