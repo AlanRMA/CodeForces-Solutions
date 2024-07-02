@@ -12,6 +12,7 @@ for _ in range(t):
     # Cruzam
     if (isBetween(c,a,b) and not isBetween(d,a,b)) or (isBetween(d,a,b) and not isBetween(c,a,b)):
         print("YES")
+    # Nao Cruzam
     else:
         print("NO")
 
